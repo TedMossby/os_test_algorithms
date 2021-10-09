@@ -199,7 +199,7 @@ void put_into_ready(){
     }
 }
 
-//从ready链表中拿出第一个进程1
+//从ready链表中拿出第一个进程
 process_group* get_process_from_ready(){
     process_group* tmp = ready->next;
     if(tmp==NULL) return NULL;
